@@ -1,6 +1,6 @@
-import {getQuestionById} from "../../utils/getQuestionById";
+import {getQuestionById} from "../../../utils/getQuestionById";
 import React from "react";
-import {QuestionWrapper} from "../QuestionWrapper";
+import {QuestionWrapper} from "../../QuestionWrapper";
 
 const Question1 = (props) => {
     return (

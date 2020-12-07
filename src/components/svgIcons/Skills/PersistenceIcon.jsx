@@ -1,4 +1,4 @@
-const PersistenceIcon = (props) => {
+export const PersistenceIcon = (props) => {
     return (
         <svg {...props} viewBox="0 0 20 20">
             <g clip-path="url(#clip0)">
