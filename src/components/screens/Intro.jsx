@@ -53,7 +53,7 @@ const Logo = styled.div`
     @media screen and (min-width: 1100px){
        flex-direction: row;
         & svg{
-           height: 70px;
+           height: 70px !important;
         }
         & svg:last-child {
            margin-left: 30px;
