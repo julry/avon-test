@@ -15,6 +15,7 @@ const RadioIconStyled = styled(ChosenMark)`
   top: -12px;
   left: -2px;
   visibility: hidden;
+  z-index: 3;
   @media screen and (max-width: 350px) { 
        width: 24px;
        height: 24px;
