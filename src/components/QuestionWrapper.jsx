@@ -10,7 +10,7 @@ import {questionImage} from "../constants/images";
 const Wrapper = styled.div`
   padding: 5.8% 0  0 43px;
   @media screen and (max-width: 330px){
-        padding: 36px 0  0 23px;
+        padding: 15px 0  0 23px;
   }
   
   @media screen and (min-width: 1100px){
