@@ -31,11 +31,6 @@ function useWindowSize() {
 }
 
 const ScreenWrapper = () => {
-    /////////////////// for development ////////////////////////////////////
-    const urlParams = new URLSearchParams(window.location.search);
-    const screenParam = urlParams.get('screen');
-    ////////////////////////////////////////////////////////////////////////
-
     const [currentScreenIndex, setCurrentScreenIndex] = useState(+screenParam || 0);
     const [answers, setAnswers] = useState(DEFAULT_ANSWERS);
     const currentHeight = useWindowSize();
