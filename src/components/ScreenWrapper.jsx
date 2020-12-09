@@ -31,7 +31,7 @@ function useWindowSize() {
 }
 
 const ScreenWrapper = () => {
-    const [currentScreenIndex, setCurrentScreenIndex] = useState(+screenParam || 0);
+    const [currentScreenIndex, setCurrentScreenIndex] = useState(0);
     const [answers, setAnswers] = useState(DEFAULT_ANSWERS);
     const currentHeight = useWindowSize();
 
