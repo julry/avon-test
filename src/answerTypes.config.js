@@ -93,7 +93,7 @@ export const SexTypes = {
 export const answerTypes = {
     [AnswerType.SalesF]: {
         type: AnswerType.SalesF,
-        title: 'Наташа из отдела \nsales',
+        title: 'Наташа из отдела\nмаркетинга',
         position: 'Наш старший менеджер по управлению маржинальностью продукта ',
         sex: SexTypes.Female,
         skills: [SkillTypes.persistence, SkillTypes.sociability, SkillTypes.strategy, SkillTypes.proactivity],
@@ -113,8 +113,8 @@ export const answerTypes = {
     },
     [AnswerType.Finance]: {
         type: AnswerType.Finance,
-        title: 'Саша из отдела \nфинансов',
-        position: 'Наш финансовый \nаналитик',
+        title: 'Саша из отдела\nфинансов',
+        position: 'Наш финансовый\nаналитик',
         sex: SexTypes.Male,
         skills: [SkillTypes.analytics, SkillTypes.attentiveness, SkillTypes.inventiveness, SkillTypes.responsibility],
         description: 'Твои навыки обработки информации и составления прогноза расходов могли бы увеличить доход многих женщин. С таким крутым специалистом можно быть уверенным в завтрашнем дне!',
@@ -122,8 +122,8 @@ export const answerTypes = {
     },
     [AnswerType.Marketing]: {
         type: AnswerType.Marketing,
-        title: 'Соня из отдела\n маркетинга',
-        position: 'Наш младший\n бренд-менеджер',
+        title: 'Соня из отдела\nмаркетинга',
+        position: 'Наш младший\nбренд-менеджер',
         sex: SexTypes.Female,
         skills: [SkillTypes.analytics, SkillTypes.determination, SkillTypes.sociability, SkillTypes.creativity],
         description: 'Проактивность и смелость позволяют тебе сворачивать горы и решать любые креативные задачи в сжатые сроки. С нами ты будешь продвигать крутые продукты и делать мир красивее каждый день.',
@@ -131,7 +131,7 @@ export const answerTypes = {
     },
     [AnswerType.Logistics]: {
         type: AnswerType.Logistics,
-        title: 'Радик из отдела \nлогистики',
+        title: 'Радик из отдела\nлогистики',
         position: 'Наш координатор секции\n' +
             'сортировки и ввода заказов ',
         sex: SexTypes.Male,
@@ -151,10 +151,10 @@ export const answerTypes = {
     [AnswerType.ECommerce]: {
         type: AnswerType.ECommerce,
         title: 'Арина из отдела\ne-commerce',
-        position: 'Наш старший специалист \nпо контенту интернет-магазина',
+        position: 'Наш старший специалист\nпо контенту интернет-магазина',
         sex: SexTypes.Female,
         skills: [SkillTypes.proactivity, SkillTypes.attentiveness,SkillTypes.creativity, SkillTypes.determination],
-        description: 'При поддержке Avon твоя способность разбираться в трендах, SEO-оптимизации и контенте помогла бытысячам женщин улучшить качество жизни. С тобой легко сделать мир чуточку красивее))',
+        description: 'При поддержке Avon твоя способность разбираться в трендах, SEO-оптимизации и контенте помогла бы тысячам женщин улучшить качество жизни. С тобой легко сделать мир чуточку красивее))',
         image: commerce,
     },
     [AnswerType.Transformation]: {
@@ -172,7 +172,7 @@ export const answerTypes = {
         position: 'Наш старший специалист\nпо развитию талантов',
         sex: SexTypes.Female,
         skills: [SkillTypes.creativity,SkillTypes.tenderness,SkillTypes.leadership,SkillTypes.humanityLover],
-        description: 'Твоя инициативность и креативность помогли бы тебе создавать проекты, продвигающие бренд работодателя. Благодаря таким аватарам, как ты, появился проект CyberAvon и этот тест тоже :)',
+        description: 'Твоя инициативность и креативность помогли бы тебе создавать проекты, продвигающие бренд работодателя. Благодаря таким аватарам, как ты, появился проект CyberAvon 3.0 и этот тест тоже :)',
         image: hr,
     },
 };
