@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import styled from 'styled-components';
-import {avon, introImage} from "../../constants/images";
+import {introImage} from "../../constants/images";
 import TextHighlightField from "../shared/TextHighlightField";
 import Button from "../shared/Button";
 import {ProgressContext} from "../../contexts/ProgressContext";
