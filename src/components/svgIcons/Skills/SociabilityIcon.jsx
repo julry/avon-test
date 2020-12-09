@@ -1,6 +1,6 @@
 export const SociabilityIcon = (props) => {
     return (<svg viewBox="0 0 20 20" {...props}>
-            <g clip-path="url(#clip0)">
+            <g clipPath="url(#clip0)">
                 <path d="M3.33333 8.50004H7.66667C7.86667 8.50004 8 8.36671 8 8.16671C8 7.96671 7.86667 7.83337 7.66667 7.83337H3.33333C3.13333 7.83337 3 7.96671 3 8.16671C3 8.36671 3.13333 8.50004 3.33333 8.50004Z" fill="url(#paint0_linear)"/>
                 <path d="M12 9.83337H3.33333C3.13333 9.83337 3 9.96671 3 10.1667C3 10.3667 3.13333 10.5 3.33333 10.5H12C12.2 10.5 12.3333 10.3667 12.3333 10.1667C12.3333 9.96671 12.2 9.83337 12 9.83337Z" fill="url(#paint1_linear)"/>
                 <path d="M12 11.8334H3.33333C3.13333 11.8334 3 11.9667 3 12.1667C3 12.3667 3.13333 12.5 3.33333 12.5H12C12.2 12.5 12.3333 12.3667 12.3333 12.1667C12.3333 11.9667 12.2 11.8334 12 11.8334Z" fill="url(#paint2_linear)"/>
@@ -8,20 +8,20 @@ export const SociabilityIcon = (props) => {
             </g>
             <defs>
                 <linearGradient id="paint0_linear" x1="3" y1="8.15504" x2="8" y2="8.15504" gradientUnits="userSpaceOnUse">
-                    <stop offset="2.02456e-07" stop-color="#8116B2"/>
-                    <stop offset="1" stop-color="#C32D54"/>
+                    <stop offset="2.02456e-07" stopColor="#8116B2"/>
+                    <stop offset="1" stopColor="#C32D54"/>
                 </linearGradient>
                 <linearGradient id="paint1_linear" x1="3" y1="10.155" x2="12.3333" y2="10.155" gradientUnits="userSpaceOnUse">
-                    <stop offset="2.02456e-07" stop-color="#8116B2"/>
-                    <stop offset="1" stop-color="#C32D54"/>
+                    <stop offset="2.02456e-07" stopColor="#8116B2"/>
+                    <stop offset="1" stopColor="#C32D54"/>
                 </linearGradient>
                 <linearGradient id="paint2_linear" x1="3" y1="12.155" x2="12.3333" y2="12.155" gradientUnits="userSpaceOnUse">
-                    <stop offset="2.02456e-07" stop-color="#8116B2"/>
-                    <stop offset="1" stop-color="#C32D54"/>
+                    <stop offset="2.02456e-07" stopColor="#8116B2"/>
+                    <stop offset="1" stopColor="#C32D54"/>
                 </linearGradient>
                 <linearGradient id="paint3_linear" x1="1.58946e-07" y1="10.0002" x2="20" y2="10.0002" gradientUnits="userSpaceOnUse">
-                    <stop offset="2.02456e-07" stop-color="#8116B2"/>
-                    <stop offset="1" stop-color="#C32D54"/>
+                    <stop offset="2.02456e-07" stopColor="#8116B2"/>
+                    <stop offset="1" stopColor="#C32D54"/>
                 </linearGradient>
                 <clipPath id="clip0">
                     <rect width="20" height="20" fill="white"/>

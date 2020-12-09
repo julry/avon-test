@@ -6,6 +6,7 @@ import Button from "../shared/Button";
 import {ProgressContext} from "../../contexts/ProgressContext";
 import CyberLogo from "../svgIcons/CyberLogo";
 import AvonLogo from "../svgIcons/AvonLogo";
+import { reachMetrikaGoal } from '../../utils/reachMetrikaGoal';
 
 const Wrapper = styled.div`
     padding: 49px 37px 0 53px ;
@@ -161,6 +162,11 @@ const StartButton = styled(Button)`
 const Intro = () => {
     const { setNext } = useContext(ProgressContext);
 
+    const onStart = () => {
+        setNext();
+        reachMetrikaGoal('start');
+    }
+
     return(
         <Wrapper>
                 <Logo>
@@ -176,7 +182,7 @@ const Intro = () => {
                 </Text>
             </Title>
             <Text>{'Узнаешь, ответив\nна 5 вопросов!'}</Text>
-            <StartButton text={'Пройти тест'} onClick={setNext}/>
+            <StartButton text={'Пройти тест'} onClick={onStart}/>
             <ImageWrapper>
                 <Image src={introImage} alt={''}/>
             </ImageWrapper>

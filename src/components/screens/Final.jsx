@@ -5,6 +5,7 @@ import SkillData from "../SkillData";
 import {AnswerType} from "../../answerTypes.config";
 import TextHighlightField from "../shared/TextHighlightField";
 import VkIcon from "../svgIcons/VkIcon";
+import {reachMetrikaGoal} from "../../utils/reachMetrikaGoal";
 
 const Wrapper = styled.div`
   padding: 4% 9.5% 0 9%;
@@ -221,7 +222,7 @@ const Final = () => {
             <AvatarWrapper>
                 <Skills>
                     {result.skills.map(x=>
-                        <SkillData>
+                        <SkillData key={x.name}>
                             {x.icon()}
                             <p>{x.name}</p>
                         </SkillData>
@@ -248,7 +249,7 @@ const Final = () => {
             <Description>
                 {result.description}
             </Description>
-            <VKWrapper href={'https://vk.com/avon_careers'} target={'_blank'}>
+            <VKWrapper onClick={()=>reachMetrikaGoal('social')} href={'https://vk.com/avon_careers'} target={'_blank'}>
                 <VkIcon />
                 {'Узнать больше о команде, которую\nне остановят никакие сложности,\nможно в группе VK'}
             </VKWrapper>

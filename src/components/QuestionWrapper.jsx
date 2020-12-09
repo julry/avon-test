@@ -6,6 +6,7 @@ import {ProgressContext} from '../contexts/ProgressContext';
 import TextHighlightField from "./shared/TextHighlightField";
 import {questions} from "../questions.config";
 import {questionImage} from "../constants/images";
+import {reachMetrikaGoal} from "../utils/reachMetrikaGoal";
 
 const Wrapper = styled.div`
   padding: 5.8% 0  0 43px;
@@ -163,6 +164,9 @@ export const QuestionWrapper = props => {
 
     const onNext = () => {
         setNext();
+        if (isLastQuestion) {
+            reachMetrikaGoal('finish');
+        }
     };
 
     const handleAnswerChange = useCallback((answerId) => {
