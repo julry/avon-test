@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { ProgressContext } from '../contexts/ProgressContext';
 import { getAnswerById } from '../utils/getAnswerById';
 import { AnswerType, answerTypes } from '../answerTypes.config';

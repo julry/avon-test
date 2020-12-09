@@ -228,7 +228,7 @@ const Final = () => {
                     )}
                 </Skills>
                 <ImageWrapper type={result.type}>
-                    <img src={result.image}/>
+                    <img src={result.image} alt={''}/>
                 </ImageWrapper>
             </AvatarWrapper>
             {result.type === AnswerType.SalesF && (window.innerWidth < 1000) ?
