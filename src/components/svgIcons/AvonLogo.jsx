@@ -1,7 +1,7 @@
 const AvonLogo = props => {
     return (
         <svg {...props} viewBox="0 0 307 66" >
-            <rect x="0.504883" width="307" height="66" fill="url(#pattern10)"/>
+            <rect x="0" width="307" height="66" fill="url(#pattern10)"/>
             <defs>
                 <pattern id="pattern10" patternContentUnits="objectBoundingBox" width="1" height="1">
                     <use href="#image10" transform="translate(-0.00105979) scale(0.000423908 0.00190476)"/>

@@ -11,10 +11,6 @@ const marketing = process.env.PUBLIC_URL + '/static/images/sonyaMARKETING.png';
 const itSolutions = process.env.PUBLIC_URL + '/static/images/svetaIT.png';
 const sales_m = process.env.PUBLIC_URL + '/static/images/vitaliySALES.png';
 
-const logo = process.env.PUBLIC_URL + '/static/images/logo.png';
-const logoDesk = process.env.PUBLIC_URL + '/static/images/logo_desktop.png';
-
-
 export {
     questionImage,
     background,
@@ -24,10 +20,8 @@ export {
     logistics,
     marketing,
     commerce,
-    logo,
-    logoDesk,
     sales_f,
     sales_m,
     transform,
-    hr
+    hr,
 }

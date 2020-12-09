@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import styled from 'styled-components';
-import {introImage, logo, logoDesk} from "../../constants/images";
+import {avon, introImage} from "../../constants/images";
 import TextHighlightField from "../shared/TextHighlightField";
 import Button from "../shared/Button";
 import {ProgressContext} from "../../contexts/ProgressContext";
@@ -56,6 +56,7 @@ const Logo = styled.div`
            height: 70px !important;
         }
         & svg:last-child {
+           height: 70px !important;
            margin-left: 30px;
         }
     }
@@ -182,5 +183,4 @@ const Intro = () => {
         </Wrapper>
     )
 }
-
 export default Intro;
